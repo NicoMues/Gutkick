@@ -1,0 +1,112 @@
+Konzept Gut Kick
+
+Kurze Projektbeschreibung:
+Fantasy Football Manager für Amateur- bzw. Kreisliga-Fußball
+
+Ausführung zum Projekt:
+In den letzten Jahren haben sich Fantasy Football Manager auch in Deutschland etabliert. Häufig finden diese Manager allein auf Apps statt. Aktuell sehr beliebt und sehr gelungen ist Kickbase. Dieser Fantasy Football Manager ermöglicht es, die erste und zweite Bundesliga, die spanische Liga, die Frauen-Bundesliga und auch den DFB-Pokal zu spielen. Es geht beim Football Manager darum, eine Mannschaft realer Spieler zusammenzustellen. Diese Spieler sammeln dann im realen Leben, am Spieltag, Punkte und erzeugen somit für den “Manager” eine Gesamtpunktzahl. Hierbei kann man sich mit anderen Managern, also Freunden und Bekannten, messen.
+
+Alleinstellungsmerkmal und Zielgruppe:
+Fußball ist der weltweit und insbesondere in Deutschland beliebteste Sport. Eine Vielzahl an Kindern, Jugendlichen und Erwachsenen spielt aktiv Fußball im Verein. Es besteht eine direkte Verbindung zwischen Fußballern, Fußballinteressierten und den potenziellen Abonnenten und Mitspielern in der App. Aktuell fokussieren sich die Fantasy Manager auf die Profiligen. Viel mehr Spieler aber sind in den unteren Ligen tätig. Sie gehen mehrmals pro Woche zum Training und spielen am Wochenende in ihren Mannschaften. Viele sind im Verein engagiert und leisten ehrenamtliche Arbeit. Dieses Interesse am lokalen Fußballsport lässt sich leicht in eine bedienungsfreundliche App übertragen. Zugleich kann die Vereinsarbeit dadurch gestärkt werden.
+
+Bedienung und Systematik:
+- Bei der Einrichtung und Anmeldung in der App muss eine Liga ausgewählt werden (z.B. Kreisliga A in Siegen Wittgenstein)
+- Die Manager stellen jeden Spieltag ihre Mannschaft zusammen aus 4 Feldspielern und einem Torwart
+- Der Manager muss die Spieler bis zum Anpfiff des Spieltags aufstellen
+- Alle Spieler können aus der zuvor gewählten Liga aufgestellt werden
+- Budget (Kickercash) darf nicht überschritten werden
+- Punkte werden während jedes realen Spieltags vergeben
+- Spiele finden meistens sonntags statt
+- Verfügbare Daten sind begrenzt
+- Punkte durch Tippen der Ergebnisse der Spiele sind möglich
+
+Punktesystem:
+- Punkte für Feldspieler:
+  - Tor: 10 Punkte
+  - Startelf: 4 Punkte
+  - Nicht-Ausgewechselt: 2 Punkte
+  - Einwechslung: 2 Punkte
+  - Mannschaft gewinnt: 2 Punkte
+- Punkte für Torwart:
+  - Startelf: 3 Punkte
+  - Spiel ohne Gegentor: 8 Punkte
+  - Spiel mit Gegentor: 3 Punkte
+  - Mannschaft gewinnt: 2 Punkte
+- Multiplikatoren:
+  - Kapitän: doppelte Punktzahl
+  - Unterschied zwischen Mannschaften multipliziert Punkte, wenn Spieler im schlechteren Team spielt
+  - Formel: Multiplikator = 1 + 0,2 * Tabellenunterschied
+- Joker:
+  - Spieler ausfallen: Joker kann eingesetzt werden, kostet 10 Punkte
+  - Feldspieler nur für Feldspieler, Torwart nur für Torwart
+- Punkte für Tipp auf Gesamtmannschaft:
+  - Richtiges Ergebnis: 2 Punkte
+  - Richtiger Sieger: 1 Punkt
+  - Falscher Tipp: 0 Punkte
+- Gesamtpunkte pro Manager: Summe aus Spielerpunkten + Tipp-Punkten
+
+Eigene Liga gründen und managen:
+- Jeder angemeldete Nutzer wird zum Manager
+- Auswahl der Liga bei Registrierung
+- Eigener Managername und optional Profilbild
+- Möglichkeit eigene Gruppen/Ligen zu erstellen
+
+Ablauf der Spieltage, Prämien und Ranglisten:
+- Rangliste nach jedem Spieltag
+- Extrapunkte für Budget für die besten drei Manager des Spieltags
+- Neue Mannschaft kann nach jedem Spieltag zusammengestellt werden
+
+Marktwertsystem:
+- Budget zur Auswahl der Spieler: 90 Punkte
+- Marktwert der Feldspieler:
+  - Grundwert abhängig von Tabellenplatz
+  - Platzierungen in Torschützenliste erhöhen Marktwert
+- Marktwert der Torwarte:
+  - Abhängig von Rangliste der wenigsten Gegentore
+
+Verfügbare Daten:
+- Tabelle der Liga (Tabellenplatz, geschossene Tore, kassierte Tore)
+- Torschützenliste
+- Fairplay-Tabelle
+
+Ausführliche Konzipierung der App:
+
+Anmeldung und Registrierung:
+- Anmeldung mit E-Mail und Passwort
+- Registrierung über Button "Noch kein Mitglied? Registrier dich und werde Manager!"
+
+Onboarding:
+1. Begrüßungsbildschirm
+2. Managername festlegen
+3. Liga-Auswahl
+4. Eigener Liga beitreten oder eigene Liga gründen (optional)
+5. Lieblingsmannschaft festlegen (optional)
+6. Spielregeln und App-Funktionen erklären (optional)
+7. Einstellungen für Benachrichtigungen
+8. Abschluss und Start
+
+Deine Mannschaft:
+- Startseite mit Fußballplatz-Darstellung
+- Auswahl von 4 Feldspielern und 1 Torwart über Buttons
+- Spielerlisten sortiert nach Marktwert
+
+Rankings:
+- Gesamtranking
+- Ligarankings
+- Saison- und Spieltagsranking
+
+Statistiken:
+- Tabelle, Torschützenliste, Spielpaarungen, Marktwerte
+
+Dein Profil/Einstellungen:
+- "Dein Account": Managernamen, Mail, Passwort ändern
+- "Deine Mitteilungen": Benachrichtigungen aktivieren/deaktivieren
+
+Herausforderungen und Probleme:
+- Daten sind keine Echtzeitdaten
+- Automatisierung der Dateneingabe
+- Spiele können verschoben/abgebrochen werden
+
+Weitere Ideen:
+- Kreisligaübergreifend aufstellen
+- Championship-System: Beste 10 Spieltage werden gewertet
